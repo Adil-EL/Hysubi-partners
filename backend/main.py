@@ -1,5 +1,5 @@
-#  @bekbrace
-#  FARMSTACK Tutorial - Sunday 13.06.2021
+#  @Adil
+#  Hysubi
 
 from fastapi import FastAPI, HTTPException
 
@@ -16,6 +16,7 @@ from database import (
 # an HTTP-specific exception class  to generate exception information
 
 from fastapi.middleware.cors import CORSMiddleware
+
 app = FastAPI()
 
 origins = [

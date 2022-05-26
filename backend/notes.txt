@@ -1,3 +1,6 @@
+
+pip freeze > requirements.txt
+#Docker
 Dockerfile
 docker build -t backend-fastapi:0.1 .
 docker run -p 8000:8000 --name fastapi backend-fastapi:0.1
